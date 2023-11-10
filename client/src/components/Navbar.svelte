@@ -1,11 +1,11 @@
 <script>
 </script>
 
-<div class="nav-wrapper flex justify-between items-center bg-orange-500 p-5">
-	<a href="#" class="brand-logo">
+<nav class="nav-wrapper flex justify-between items-center bg-orange-500 p-3">
+	<a href="." class="brand-logo">
 		<img src="/l-black.png" alt="logo" class="logo rounded-md" width="50" height="50" />
 	</a>
-	<form class="input-field flex justify-between items-center rounded-2xl bg-gray-50 text-gray-900">
+	<form class="input-field flex justify-between items-center rounded-xl bg-gray-50 text-gray-900">
 		<select name="region" class="bg-gray-800 text-white rounded-md p-1 ml-4 cursor-pointer">
 			<option value="na1">NA</option>
 			<option value="euw1">EUW</option>
@@ -20,14 +20,14 @@
 			<option value="tr1">TR</option>
 		</select>
 		<input
-			class="bg-transparent w-full p-3 rounded-2xl mr-2 outline-0"
+			class="bg-transparent w-full p-3 rounded-xl mr-2 outline-0"
 			id="search"
 			type="search"
 			placeholder="Summoner name"
 			required
 		/>
 		<label
-			class="label-icon bg-orange-400 hover:bg-orange-600 cursor-pointer px-4 py-5 rounded-r-2xl"
+			class="label-icon bg-orange-400 hover:bg-orange-600 cursor-pointer px-4 py-3 rounded-r-xl"
 			for="search"
 		>
 			<svg
@@ -49,4 +49,4 @@
 		</label>
 	</form>
 	<div />
-</div>
+</nav>

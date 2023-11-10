@@ -1,6 +1,10 @@
 <script>
-	// Page-specific JavaScript can go here
+	import Hero from '../components/Hero.svelte';
 </script>
 
-<h1 class="text-gray-900">Welcome to the Homepage!</h1>
-<p>This is the main content of your homepage.</p>
+<div class="page">
+	<Hero />
+	<div class="main">
+		<slot />
+	</div>
+</div>

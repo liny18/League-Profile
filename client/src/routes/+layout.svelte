@@ -6,16 +6,14 @@
 
 <body>
 	<header>
-		<nav>
-			<Navbar />
-		</nav>
+		<Navbar />
 	</header>
 
 	<main>
 		<slot />
 	</main>
 
-	<footer>
+	<footer class="mt-auto sticky-bottom">
 		<Footer />
 	</footer>
 </body>
@@ -29,12 +27,5 @@
 			'Segoe UI Symbol', 'Noto Color Emoji';
 		-webkit-font-smoothing: antialiased;
 		-moz-osx-font-smoothing: grayscale;
-	}
-	header,
-	footer {
-		background-color: #f5f5f5;
-	}
-	main {
-		padding: 2rem;
 	}
 </style>
