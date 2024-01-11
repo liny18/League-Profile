@@ -33,8 +33,8 @@
 		right: 0;
 		bottom: 0;
 		left: 0;
-		background: url(https://s-lol-web.op.gg/static/images/site/summoner/mask.svg) no-repeat center
-			center;
+		background: url(https://s-lol-web.op.gg/static/images/site/summoner/mask_dark.svg) no-repeat
+			center center;
 		background-size: cover;
 		z-index: 2;
 	}

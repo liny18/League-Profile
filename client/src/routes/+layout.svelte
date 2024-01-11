@@ -27,5 +27,6 @@
 			'Segoe UI Symbol', 'Noto Color Emoji';
 		-webkit-font-smoothing: antialiased;
 		-moz-osx-font-smoothing: grayscale;
+		background-color: rgb(28, 28, 31);
 	}
 </style>
